@@ -1,6 +1,6 @@
 # Voron boot splash (using plymouth)
 
-<video src="https://github.com/tehmaze/voron-bootsplash/raw/refs/heads/main/bootsplash.mp4" width="1280" height="600"></video>
+https://github.com/user-attachments/assets/254ce41c-ac15-44c1-a056-7a67524c77f0
 
 Prerequisite: tested on a Raspberry Pi 4B and 5 using Debian Trixie
 
