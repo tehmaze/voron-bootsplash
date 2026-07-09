@@ -57,11 +57,11 @@ Use the [./voron-32-9](voron-32-9) folder.
 After copying the correct theme folder, update plymouth and reboot:
 
 ```console
-$ sudo plymouth-set-default-theme --rebuild-initrd voron
+sudo plymouth-set-default-theme --rebuild-initrd voron
 update-initramfs: Generating /boot/initrd.img-6.18.34+rpt-rpi-v8
 '/boot/initrd.img-6.18.34+rpt-rpi-v8' -> '/boot/firmware/initramfs8'
 update-initramfs: Generating /boot/initrd.img-6.18.34+rpt-rpi-2712
 '/boot/initrd.img-6.18.34+rpt-rpi-2712' -> '/boot/firmware/initramfs_2712'
-$ sudo reboot
+sudo reboot
 ```
 
