@@ -1,0 +1,51 @@
+// Lock the display window metrics
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+
+// Load target asset matrix 
+first_frame = Image("frame_000000.png");
+image_width = first_frame.GetWidth();
+image_height = first_frame.GetHeight();
+
+// Center the animation frame on the panel
+pos_x = (screen_width / 2) - (image_width / 2);
+pos_y = (screen_height / 2) - (image_height / 2);
+
+// Construct sprite container
+animation_sprite = Sprite(first_frame);
+animation_sprite.SetX(pos_x);
+animation_sprite.SetY(pos_y);
+
+// --- ANIMATION THROTTLE VARIABLE ---
+// Set to 5 for exactly 12 FPS on a standard 60Hz display panel (60 / 12 = 5)
+FRAME_DURATION = 5; 
+
+progress = 0;
+tick_counter = 0;
+
+fun refresh_callback () {
+    // Only update the frame when the tick matches the duration
+    if (tick_counter % FRAME_DURATION == 0) {
+        
+        // Loop perfectly through your 120 frames (0 to 119)
+        frame_index = progress % 120; 
+        
+        // String padding assignment matching frame_000000.png up to frame_000119.png
+        if (frame_index < 10) {
+            filename = "frame_00000" + frame_index + ".png";
+        } else if (frame_index < 100) {
+            filename = "frame_0000" + frame_index + ".png";
+        } else {
+            filename = "frame_000" + frame_index + ".png";
+        }
+        
+        animation_sprite.SetImage(Image(filename));
+        progress++;
+    }
+    
+    // Increment the hardware tick counter every loop cycle
+    tick_counter++;
+}
+
+Plymouth.SetRefreshFunction(refresh_callback);
+
