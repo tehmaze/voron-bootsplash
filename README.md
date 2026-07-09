@@ -11,7 +11,7 @@ Upload the appropriate folder to your Pi as `/usr/share/plymouth/themes/voron`
 ![480x320](./voron-480x320/frame_000000.png)
 
 Compatible displays:
-* Mellow FLY TFT35 V2 (SPI)
+* Mellow FLY TFT35 V2 (SPI) ([affliate link](https://s.click.aliexpress.com/e/_c4bXvqp5))
 
 Use the [./voron-480x320](voron-480x320) folder.
 
@@ -20,12 +20,12 @@ Use the [./voron-480x320](voron-480x320) folder.
 ![800x480](./voron-800x480/frame_000000.png)
 
 Compatible displays:
-* BigTreeTech PiTFT50 V2.0
-* BigTreeTech PiTFT70
-* BigTreeTech HDMI5
-* Mellow FLY LCD43 (DSI / HDMI)
-* Mellow FLY LCD50 / LCD5 (DSI / HDMI)
-* Mellow FLY LCD70 (DSI / HDMI)
+* BigTreeTech PiTFT50 V2.0 ([affiliate link](https://s.click.aliexpress.com/e/_c4parXxd))
+* BigTreeTech PiTFT70 ([affiliate link](https://s.click.aliexpress.com/e/_c4parXxd))
+* BigTreeTech HDMI5 ([affiliate link](https://s.click.aliexpress.com/e/_c3dkF49H))
+* Mellow FLY LCD43 (DSI / HDMI) ([affiliate link](https://s.click.aliexpress.com/e/_c3fTJnnN))
+* Mellow FLY LCD50 / LCD5 (DSI / HDMI) ([affliate link](https://s.click.aliexpress.com/e/_c4bXvqp5))
+* Mellow FLY LCD70 (DSI / HDMI) ([affliate link](https://s.click.aliexpress.com/e/_c4bXvqp5))
 * Waveshare 4.3" DSI
 * Waveshare 5" DSI
 
@@ -36,8 +36,8 @@ Use the [./voron-800x480](voron-800x480) folder.
 ![1024x600](./voron-1024x600/frame_000000.png)
 
 Compatible displays:
-* Mellow FLY HDMI7 IPS
-* BTT HDMI7
+* Mellow FLY HDMI7 IPS ([affiliate link](https://s.click.aliexpress.com/e/_c4EPIflp))
+* BigTreeTech HDMI7 ([affiliate link](https://s.click.aliexpress.com/e/_c3dkF49H))
 * Waveshare 7" DSI / HDMI
 
 ### 1280 x 400 screens (32:9 aspect ratio)
