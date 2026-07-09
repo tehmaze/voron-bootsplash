@@ -1,5 +1,7 @@
 # Voron boot splash (using plymouth)
 
+https://github.com/tehmaze/voron-bootsplash/raw/refs/heads/main/bootsplash.mp4
+
 Prerequisite: tested on a Raspberry Pi 4B and 5 using Debian Trixie
 
 ## Installation
